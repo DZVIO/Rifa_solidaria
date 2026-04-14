@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     description: 'Participa en nuestra gran rifa. Gran sorteo el 31 de mayo de 2026.',
     images: [
       {
-        url: 'https://rifadzvio.netlify.app/og-image.png',
+        url: 'https://rifadzvio.netlify.app/preview.png',
         width: 1200,
         height: 630,
         alt: 'Rifa Solidaria',
