@@ -1,0 +1,4 @@
+/.agents
+/production_artifacts   
+app_build/node_modules/
+app_build/.next/
