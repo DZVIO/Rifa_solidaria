@@ -5,8 +5,21 @@ import { Inter } from 'next/font/google';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Rifa Profesional',
+  title: 'Rifa Solidaria',
   description: 'Participa en nuestra gran rifa. Gran sorteo el 31 de mayo de 2026.',
+
+  openGraph: {
+    title: 'Rifa Solidaria',
+    description: 'Participa en nuestra gran rifa. Gran sorteo el 31 de mayo de 2026.',
+    images: [
+      {
+        url: 'https://rifadzvio.netlify.app/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Rifa Solidaria',
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
