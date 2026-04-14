@@ -10,7 +10,7 @@ export default function Home() {
   const [copied, setCopied] = useState(false);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText("###");
+    navigator.clipboard.writeText("https://rifadzvio.netlify.app");
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
