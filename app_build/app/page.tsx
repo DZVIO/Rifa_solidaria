@@ -48,7 +48,7 @@ export default function Home() {
           transition={{ delay: 0.3, duration: 0.8 }}
         >
           <h2 className="text-2xl font-bold text-white mb-2">¡Participa y Gana!</h2>
-          <p className="text-lg text-white/90">
+          <p className="text-lg text-zinc-800 font-medium whitespace-pre-line">
             Hoy queremos compartir con ustedes una causa muy especial para nuestra familia. Estamos realizando una rifa solidaria con el propósito de recaudar fondos destinados a apoyar los gastos médicos de <b>Jorge Ramos</b>, un padre, abuelo y esposo muy querido por todos nosotros.<br></br>
 
             Los recursos recolectados serán utilizados para cubrir sesiones de terapia y la adquisición de implementos ortopédicos necesarios para su proceso de recuperación, los cuales son fundamentales en esta etapa de su tratamiento.<br></br>
