@@ -60,9 +60,9 @@ export default function Home() {
       </header>
 
       <section className="w-full flex flex-col items-center">
-        <CountdownTimer targetDate="2026-05-31T23:59:59" />
+        <CountdownTimer targetDate="2026-05-30T23:00:00" />
         <h2 className="text-xl md:text-2xl font-semibold text-white mt-4 drop-shadow-md tracking-wide">
-          Fecha de la Rifa: 31/05/2026
+          Fecha de la Rifa: 30/05/2026
         </h2>
       </section>
 
